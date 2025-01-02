@@ -14,7 +14,7 @@ const App = () => {
         console.log("logged in");
         navigate('/')
       }else{
-        console.log("looged out")
+        console.log("logged out")
         navigate('/login')
       }
     })
